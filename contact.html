@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Homework 03</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href = "css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+	
+	</head>
+	
+	<body>
+	
+		<!-- Navigation bar -->
+		<div class = "navbar-inverse navbar-static-top">
+			<div class = "container">
+				<a href = "#" class = "navbar-brand">CIS 411 Homework 03</a>
+				
+				<button class = "navbar-toggle" data-toggle="collapse" 
+				data-target = ".navHeaderCollapse">
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class = "nav navbar-nav navbar-right">
+					
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "page2.html">Page 2</a></li>
+						<li class ="active"><a href = "#">Contact Us</a></li>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Contact Form -->
+		
+		<div class="container">
+
+			<form class="form-signin">
+				<h2 class="form-signin-heading">Comment Form</h2>
+				<div class = "form-group">
+					<label for="inputName">Name:</label>
+					<input type="text" id="inputName" class="form-control" placeholder="Given Name & Surname" required autofocus>
+				</div>
+				
+				<div class = "form-group">
+					<label for="inputEmail">Email address:</label>
+					<input type="email" id="inputEmail" class="form-control" placeholder="someone@somewhere.com" required>
+				</div>
+				
+				<div class = "form-group">
+					<label for="inputText">Message:</label>
+					<textarea class = "form-control" required></textarea>
+				</div>
+				
+				<button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+			</form>
+
+		</div>
+		
+		
+		<!-- Footer -->
+		<div class = "navbar navbar-default navbar-fixed-bottom">
+			
+				<div class = "container">
+					<p class = "navbar-text">Site by Michael Moser. </p>
+				</div>
+		</div>
+		
+		
+		<!-- Bootstrap Scripts -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		
+	</body>
+
+
+</html>
